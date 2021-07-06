@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Traffic Signs Classification</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+
+
     <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
@@ -24,23 +30,24 @@
                     <a class="navbar-brand " href="/"> <h3 style="font-family: cursive;">Home</h3></a>
                 </li>
                 <li class="nav_li">
+                     <h3 style="font-family: cursive; color: white;">|</h3>
+                </li>
+                <li class="nav_li">
                     <a class="navbar-brand  " href="/traffic"> <h3 style="font-family: cursive;">Traffic Signs Classification</h3></a>
                 </li>
-                <!-- <li class="nav_li">
-                    <a class="navbar-brand  " href="/dataset"> <h3 style="font-family: cursive;">Dataset</h3></a>
-                </li> -->
+                
             </ul>
             
             
 
         </div>
     </nav>
-    <div class="bg">
-        <div class="container">
+    
+        <div class="container mar90">
             <div id="content" style="margin-top:2em">{% block content %}{% endblock %}</div>
         </div>
     
-    </div>
+    
     
 </body>
 

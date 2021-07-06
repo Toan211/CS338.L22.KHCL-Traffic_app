@@ -3,8 +3,6 @@ Pillow
 pandas
 matplotlib
 keras==2.3.1
-tensorboard==2.5.0
-tensorflow==2.5.0
 opencv-python==4.5.2.54
 flask
 Werkzeug

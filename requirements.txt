@@ -2,7 +2,7 @@ numpy
 Pillow
 pandas
 matplotlib
-keras==2.3.1
+Keras
 tensorflow-cpu
 opencv-python==4.5.2.54
 flask

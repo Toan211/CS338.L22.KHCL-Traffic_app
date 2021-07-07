@@ -41,12 +41,20 @@ body {
     margin-top: 90px;
 }
 
+.mar90{
+    margin-top: 60px;
+}
+
 .mar-bot-40{
     margin-bottom: 40px;
 }
 
-.mar-bot-40{
+.mar-bot-20{
     margin-bottom: 20px;
+}
+
+.mar-bot-60{
+    margin-bottom: 60px;
 }
 
 .img-preview {

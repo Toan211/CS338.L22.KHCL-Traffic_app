@@ -83,6 +83,7 @@ def upload():
         f = request.files['file']
         file_path = secure_filename(f.filename)
         f.save(file_path)
+
         # Make prediction
         result = image_processing(file_path)
         s = [str(i) for i in result]

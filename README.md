@@ -10,10 +10,10 @@ using flask app, deploy into heroku
 
 ## Available scripts
 
-1. first install python 3.9.2
-2. use cmd, pip install keras, tensorflow, opencv, ...
-3. use cmd, install flask, ... (requirement.txt)
-4. open traffic_app.py, or traffic.ipynb and run
+1. First install python 3.9.2
+2. Use cmd, pip install keras, tensorflow, opencv, ...
+3. Use cmd, install flask, ... (requirement.txt)
+4. Run traffic_app.py, or traffic.ipynb
 
 ## Contributors
 

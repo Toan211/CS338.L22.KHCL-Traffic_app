@@ -26,6 +26,7 @@ and import to traffic_dataset folder.
 3. Run traffic_app.py, or traffic.ipynb.
 4. Open your localhost in terminal.
 
+**Note**: there is 2 file to run flask, Traffic_app.py and Traffic_app.ipynb, you can run whatever you want
 
 ## Contributors
 

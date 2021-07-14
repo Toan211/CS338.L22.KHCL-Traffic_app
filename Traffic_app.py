@@ -54,7 +54,7 @@ classes = { 0:'Speed limit (20km/h)',
             42:'End no passing vehicle > 3.5 tons' }
 
 def image_processing(img):
-    model = load_model('./model/traffic_classifier095.h5')
+    model = load_model('./model/traffic_classifier097.h5')
     data=[]
     image = Image.open(img)
     #convert to jpg

@@ -1,5 +1,8 @@
 $(document).ready(function () {
     // Init
+    
+    activeMenu();
+    
     $('.image-section').hide();
     $('.loader').hide();
     $('#result').hide();
@@ -52,3 +55,15 @@ $(document).ready(function () {
     });
 
 });
+
+//active menu function
+function activeMenu() {
+    let pathname = window.location.pathname;
+    let arrMenu = pathname.split("/");
+    let currentMenu = arrMenu[1];
+    console.log(arrMenu);
+    console.log(currentMenu);
+    $('ul.nav_ul > li > a[data-active="'+currentMenu+'"]').addClass('active');
+    $('ul.nav_ul > li > ul[data-active="'+currentMenu+'"]').addClass('active');
+
+}

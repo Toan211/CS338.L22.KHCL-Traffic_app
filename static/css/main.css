@@ -126,3 +126,10 @@ ul.nav_ul{
     list-style: none;
     margin-bottom: 0px;
 }
+
+a.active {
+    background-color: rgb(0 139 139 / 49%);
+    margin: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+}

@@ -63,7 +63,5 @@ function activeMenu() {
     let currentMenu = arrMenu[1];
     console.log(arrMenu);
     console.log(currentMenu);
-    $('ul.nav_ul > li > a[data-active="'+currentMenu+'"]').addClass('active');
-    $('ul.nav_ul > li > ul[data-active="'+currentMenu+'"]').addClass('active');
-
+    $('.navbar > div > a[data-active="'+currentMenu+'"]').addClass('active');
 }

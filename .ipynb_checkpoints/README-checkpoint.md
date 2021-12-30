@@ -1,4 +1,4 @@
-# Traffic sign Recognition - CS406.M11.KHCL
+# Traffic sign Recognition - CS338.L22.KHCL
 
 ## Demo 
 

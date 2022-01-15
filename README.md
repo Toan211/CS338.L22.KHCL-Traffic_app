@@ -8,12 +8,17 @@ https://traffic-cls.herokuapp.com/
 ## Folder
 
 --static   : .css / .js
+
 --templates: .html
+
 --models   : .ipynb / .h5
+
            -- traffic_dataset: https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
 traffic_app.py
+
 Procfile
+
 requirements.txt
 ## Dataset
 

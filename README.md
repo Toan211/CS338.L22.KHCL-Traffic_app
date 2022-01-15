@@ -23,7 +23,7 @@ https://traffic-cls.herokuapp.com/
 ## Dataset
 
 Download dataset from https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
-and import to mode/traffic_dataset folder.
+and import to model/traffic_dataset folder.
 
 
 ## Create model
